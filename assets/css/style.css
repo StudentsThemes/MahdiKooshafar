@@ -1,0 +1,1011 @@
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar {
+    margin: 1% auto;
+    max-width: 2600px;
+    border-radius: 10px;
+    background-color: #00103be0;
+    padding: 3px 5px;
+}
+
+.logonav {
+    width: 100px;
+    height: 30px;
+    transition: all 2s;
+}
+
+.navbar-nav {
+    position: relative;
+    top: 5px;
+}
+
+a.navbar-brand {
+    display: flex;
+    align-items: center;
+
+}
+
+.logonav:hover {
+    filter: brightness(2);
+}
+li.dropdown{
+    transition: all 1s;
+}
+li.dropdown:hover{
+    background-color: #ffffff1c;
+    border-radius: 10px;
+    text-shadow: 0 0 10px white ;
+}
+
+.upcoming a {
+    padding: 0;
+    margin: 0 !important;
+}
+
+.overwatchdrop {
+    width: 210%;
+}
+
+.rightnav {
+    background-color: #1f2d53 !important;
+
+}
+
+.collapse.in::-webkit-scrollbar {
+    display: none;
+}
+
+.collapse.in {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.imgbtnnavmob img {
+    filter: contrast(0) brightness(1.8);
+}
+
+.imgbtnnavmob {
+    border: none;
+    background-color: transparent !important;
+}
+
+.imgbtnnavmob:hover {
+    background-color: #333b4b9d !important;
+}
+
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+}
+
+.container-fluid {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a.dropdown-toggle {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: aliceblue !important;
+}
+
+ul.dropdown-menu {
+    background-color: #151c28;
+    border-radius: 10px;
+}
+
+.customcar {
+    margin: auto;
+    width: 80%;
+    max-width: 1640px;
+    padding: 1%;
+}
+
+.dropdown-menu a {
+    color: aliceblue !important;
+}
+
+.dropdown-menu>li>a {
+    margin: 1px;
+    border-radius: 10px;
+    display: flex;
+    width: 100%;
+    padding: 4px 10px;
+    transition: all 1s;
+    align-items: center;
+}
+
+.dropdown-menu>li>a:hover {
+    background-color: #f5f5f517;
+}
+.dropdown-menu>li>a:hover div{
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.596) ;
+
+}
+.dropdown-menu>li>a:hover img{
+    filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.5));
+}
+.gameicon {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+span.gamegenre {
+    display: block;
+    position: relative;
+}
+
+span.gametitle {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    padding: 0;
+    border-radius: 10px;
+    left: -65px;
+    top: 110%;
+}
+
+.shopli a {
+    color: white !important;
+}
+
+.fixxer {
+    position: relative;
+    top: -5px;
+}
+
+.shopli a:hover {
+    background-color: #f5f5f53b !important;
+    border-radius: 10px;
+}
+
+.navbar-right {
+    margin-right: 0;
+}
+
+.navapp a {
+    background-color: black;
+    font-weight: bold !important;
+    border-radius: 15px;
+    color: white !important;
+    text-align: center;
+}
+
+.navapp a:hover {
+    background-color: rgba(0, 0, 0, 0.808) !important;
+}
+
+.upcoming {
+    background-color: #0a0d15;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.dropdown-menu li {
+    padding: 3px;
+    display: flex;
+}
+
+.dropdown-menu div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    border-radius: 10px;
+}
+
+.upcoming1 {
+    font-size: 19px;
+    color: rgb(161, 161, 161) !important;
+    background-color: #0a0d15;
+}
+
+.Overwatch {
+    width: 220px !important;
+}
+
+.moregames {
+    background-color: #0c94ec;
+    border-radius: 15px;
+    width: 200px;
+    border: none;
+}
+
+.moregames img {
+    width: 30px;
+    height: 30px;
+}
+
+.navicons img {
+    width: 25px;
+    height: 25px;
+    margin: 3px 14px 3px 0px;
+    transition: all 2s;
+}
+
+.carousel-control {
+    z-index: +5;
+}
+
+.carouselall a {
+    text-decoration: none !important;
+}
+
+.carouselall {
+    position: relative;
+    width: 100%;
+}
+
+.carousel-indicators {
+    margin-bottom: 1%;
+}
+
+.carousel-indicators li {
+    width: 10%;
+    max-width: 90px;
+    height: 10px;
+    background-color: #333b4bb8;
+    border-radius: 3px;
+}
+
+.carousel-indicators .active {
+    width: 10%;
+    max-width: 90px;
+}
+
+.item {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.item.active {
+    opacity: 1;
+}
+
+.carousel {
+    width: 100%;
+}
+
+span.cardtext {
+    color: white;
+    position: relative;
+    display: block;
+    left: 8%;
+    top: 23%;
+    font-size: 4rem;
+    text-shadow: 0 0 10px BLACK;
+    font-weight: bold;
+}
+
+span.cardtext2 {
+    display: block;
+    color: #9b9b9b;
+    position: relative;
+    left: 8%;
+    top: 25%;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px BLACK;
+}
+
+@media screen and (min-width:992px) {
+    .carouselcard1 {
+        background-image: url(../images/carousel/WOW_Sale_100_Skus_pve_stat_enus_desktop_1600x720.webp);
+        background-size: 100% 100%;
+    }
+
+    .carouselcard2 {
+        background-image: url(../images/carousel/WoW_10-1-7_SupportAssets_BlizzardCom_DesktopBanner_1600x720_B01.webp);
+        background-size: 100% 100%;
+    }
+
+    .carouselcard3 {
+        background-image: url(../images/carousel/OW2_2023_Hero-Mastery-Outputs_SA01-blizz-desktop_1600x720.webp);
+        background-size: 100% 100%;
+    }
+
+    .carouselcard4 {
+        background-image: url(../images/carousel/DIA_DIV_NA_pve_season_one_keyart_blizzard_banner_enus_1600x720.webp);
+        background-size: 100% 100%;
+    }
+
+    .carouselcard5 {
+        background-image: url(../images/carousel/HS_27p2_BG-Season3Pass_Blizzard_Desktop_1600x720_JL02.webp);
+        background-size: 100% 100%;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    .carouselcard1 {
+        background-image: url(../images/carousel/WOW_Sale_100_Skus_pve_stat_enus_mobile-880x720.webp);
+        background-size: 100% 100%;
+        text-align: center;
+        padding-top: 20%;
+    }
+
+    .carouselcard2 {
+        background-image: url(../images/carousel/WoW_10-1-5_SupportAssets_BlizzardCom_MobileBanner_Mobile_880x720_B01.webp);
+        background-size: 100% 100%;
+        text-align: center;
+        padding-top: 15%;
+    }
+
+    .carouselcard3 {
+        background-image: url(../images/carousel/OW2_2023_Hero-Mastery-Outputs_SA01-blizz-mobile_880x720.webp);
+        background-size: 100% 100%;
+        text-align: center;
+        padding-top: 10%;
+    }
+
+    .carouselcard4 {
+        background-image: url(../images/carousel/DIA_DIV_NA_pve_season_one_keyart_mobile_blizzard_banner_version_2_enus_880x720.webp);
+        background-size: 100% 100%;
+        text-align: center;
+        padding-top: 15%;
+    }
+
+    .carouselcard5 {
+        background-image: url(../images/carousel/HS_27p2_BG-Season3Pass_Blizzard_Mobile_880x720_JL02.webp);
+        background-size: 100% 100%;
+        text-align: center;
+        padding-top: 10%;
+    }
+
+    .carouselcards img {
+        left: 0 !important;
+    }
+
+    .cardtext {
+        left: 0 !important;
+    }
+
+    .cardtext2 {
+        left: 0 !important;
+    }
+
+    .carousellinks {
+        left: 0 !important;
+    }
+
+    .customcar {
+        width: 100%;
+    }
+
+    span.cardtext {
+        font-size: 2rem;
+    }
+
+    span.cardtext2 {
+        font-size: 1.5 rem;
+    }
+}
+
+.containercustom {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    max-width: 2600px;
+}
+
+.carouselcards img {
+    width: 271px;
+    height: 21%;
+    position: relative;
+    top: 20%;
+    left: 8%;
+}
+
+
+.carouselcards {
+    width: 100%;
+    height: 690px;
+    border-radius: 19px;
+    position: relative;
+    text-decoration: none;
+
+}
+
+a.carouseselect:after {
+    content: "";
+    width: 100%;
+    height: 690px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px black;
+    text-decoration: none !important;
+}
+
+.glyphicon-chevron-right:before {
+    content: "\e080";
+    position: relative;
+    top: -15%;
+    left: 15%;
+}
+
+.glyphicon-chevron-left:before {
+    position: relative;
+    top: -15%;
+    left: -15%;
+}
+
+a.carousellinks {
+    display: inline-block;
+    position: relative;
+    top: 28%;
+    left: 8%;
+    text-decoration: none;
+    color: white;
+    z-index: +2;
+}
+
+a.carousellinks:nth-child(even) {
+    background-color: #0c94ec;
+    padding: 15px;
+    border-radius: 27px;
+    width: max-content;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a.carousellinks:nth-child(odd) {
+    background-color: #26255f52;
+    padding: 15px;
+    border-radius: 27px;
+    width: max-content;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a.carousellinks:hover {
+    text-shadow: 0 0 10px white;
+    box-shadow: inset 0 0 10px 24px rgba(255, 255, 255, 0.23);
+}
+
+.carousel-control {
+    z-index: +5;
+    border-radius: 57%;
+    height: 50px;
+    top: 50%;
+    margin: 0 9%;
+    width: 50px;
+    background-color: #333b4b;
+}
+
+h3.gamesection {
+    display: inline-block;
+    margin-left: 2vw;
+    font-size: 3rem;
+}
+
+a.gamekind {
+    background-color: #6f6f6fa1;
+    border-radius: 50px;
+    width: max-content;
+    display: inline-block;
+    padding: 3px 15px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+a.gamekind:hover {
+    box-shadow: inset 0 0 40px rgba(255, 255, 255, 0.548);
+}
+
+
+.headgame {
+    margin-top: 40px;
+    height: 50px;
+    display: flex;
+    color: white;
+    margin-bottom: 35px;
+    width: 75%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headgamelinks {
+    display: flex;
+    gap: 1vw;
+    width: 50%;
+    margin-right: 2%;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    font-size: 2rem;
+}
+
+.backcard {
+    width: 100%;
+    height: 20vw;
+    max-height: 500px;
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+    transition: all 0.5s;
+    margin: auto;
+    overflow: hidden;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+video {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 99%;
+    border-radius: 10px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.gamecard span {
+    display: block;
+    position: relative;
+    top: 18px;
+}
+
+.gamevids {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    width: 75%;
+}
+.customizerpad{
+    padding: 0;
+}
+.gamecard {
+    margin: 1vw 18px;
+}
+
+.allback {
+    background-color: #1f2d53;
+    box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.527);
+    z-index: +1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gameicons {
+    width: 25px;
+    position: relative;
+    top: 20px;
+    margin: 1px 5px;
+    transition: all 1s;
+}
+
+.gamecard a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    display: flex !important;
+    flex-direction: column;
+}
+.linksdif a{
+    width: auto !important;
+    transition: all 1s;
+}
+.linksdif a:hover img{
+    filter: drop-shadow(0px 0px 6px white);
+    transform: scale(1.5);
+}
+.linksdif {
+    display: flex;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+.maincartback>div {
+    margin: 11px 0;
+}
+
+.maincartback>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.gamecard a:hover .backcard {
+    transform: scale(1.1)
+}
+
+span.titlegame {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+span.rolegame {
+    color: #8c8c8c;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+img.logogame {
+    width: 100%;
+    height: 100%;
+    z-index: +5;
+    position: absolute;
+    bottom: 0px;
+}
+
+img.backcardgame {
+    width: 101%;
+    position: relative;
+    z-index: +1;
+    top: 0%;
+    height: 101%;
+    opacity: 1;
+    transition: all 1s;
+}
+
+.gamecard a:hover img.backcardgame {
+    opacity: 0;
+}
+
+.allgameslink a {
+    width: 210px;
+    background-color: #0c94ec;
+    display: inline-block;
+    padding: 2%;
+    border-radius: 50px;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.allgameslink a:hover {
+    box-shadow: 0 0 100px #ffffff59 inset;
+}
+
+.allgameslink {
+    display: block;
+    text-align: center;
+    margin: 7% 0;
+}
+
+.poster {
+    background-color: rgb(32 39 50);
+    padding: 80px 0;
+}
+
+.backposter {
+    width: 80%;
+    max-width: 1640px;
+    height: 640px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.76);
+}
+
+@media screen and (min-width:993px) {
+    .backposter {
+        background-image: url(../images/Desktop.webp);
+        background-size: 100% 100%;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    .backposter {
+        background-image: url(../images/header-bg-sm.webp);
+        background-size: 100% 100%;
+    }
+
+    .backposter span {
+        text-align: center;
+        left: 0 !important;
+    }
+
+    .logoposter {
+        text-align: center;
+        left: 0 !important;
+    }
+
+    .posterlinks {
+        text-align: center;
+        left: 0 !important;
+    }
+
+    span.titlegame {
+        font-size: 2rem;
+    }
+
+    span.rolegame {
+        font-size: 1.2rem;
+    }
+}
+
+.logoposter {
+    position: relative;
+    top: 30%;
+    left: 10%;
+}
+
+.backposter span {
+    display: block;
+    position: relative;
+    top: 32%;
+    left: 10%;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.backposter a {
+    padding: 20px 35px;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    border-radius: 48px;
+    border: 1px solid rgba(255, 255, 255, 0.301);
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2%;
+}
+
+.backposter a:nth-child(even) {
+    background-color: #0c94ec;
+}
+
+.backposter a:nth-child(odd) {
+    background-color: #8c8c8c54
+}
+
+.backposter a:hover {
+    box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.493);
+}
+
+.bannerdisc {
+    color: #333b4b !important;
+}
+
+.posterlinks {
+    position: relative;
+    display: flex;
+    top: 33%;
+    left: 10%;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+
+.battlelog {
+    max-width: 50%;
+}
+
+.footer {
+    background-color: rgb(23 23 23);
+    text-align: center;
+    color: hsl(0deg 0% 100% / 50%);
+}
+
+.footer a {
+    color: hsl(0deg 0% 100% / 50%);
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.footer a:hover {
+    color: white !important;
+    text-shadow: 0 0 5px #ffffff;
+}
+
+.transuper {
+    padding-top: 1%;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.translatedrop {
+    width: 400px;
+    border-radius: 0 !important;
+    background: linear-gradient(0deg, #171717 -23%, transparent);
+    left: auto;
+    border: 0.1em solid #ffffff6e;
+}
+
+.translatedrop a {
+    color: #abb0bc !important;
+}
+
+.translatedrop>li>a:hover {
+    background-color: #1f2d5300;
+    text-shadow: 0 0 5px #ffffff;
+}
+
+.translatedrop li {
+    display: inline-block;
+    width: 49%;
+}
+
+.translatedrop li:hover {
+    text-shadow: 0 0 5px #ffffff;
+}
+
+.translatebut:hover img {
+    filter: brightness(1.4);
+}
+
+.translatebut {
+    position: relative;
+}
+
+.logofooter a:hover .logoimage {
+    filter: brightness(2.4);
+}
+
+.logoimage {
+    max-width: 167px;
+    height: min-content;
+    transition: all 1s;
+}
+
+.footertoplink {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footerbotlink {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.footertoplink a {
+    margin: 40px 10px;
+    display: inline-block;
+}
+
+.footerbotlink a {
+    margin: 1% 5px;
+    display: inline-block;
+}
+
+.trademarkss {
+    text-decoration: underline !important;
+    font-weight: bold;
+    color: hsla(0, 0%, 100%, 0.747) !important;
+}
+
+.footerapp {
+    text-decoration: underline !important;
+    color: #0c94ec !important;
+}
+
+a.footerapp:hover {
+    color: #63bffc !important;
+}
+
+.footermin {
+    display: inline-block;
+    margin-bottom: 2%;
+}
+
+.logobottem {
+    display: block;
+    color: rgba(255, 255, 255, 0.603);
+    position: relative;
+    top: -3px;
+    font-family: monospace;
+    font-size: 12px;
+}
+
+.footermin img {
+    width: 20px;
+    height: 20px;
+}
+
+.open>.translatedrop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width:767px) {
+    .allback {
+        background-image: url(../images/960_Featured_Games_2.webp);
+        background-size: 100% 100%;
+    }
+
+    .poster {
+        background-image: url(../images/960_Promo.webp);
+        background-size: 100% 100%;
+    }
+
+    .headgamelinks {
+        font-size: 1rem;
+    }
+
+    h3.gamesection {
+        font-size: 2rem;
+
+    }
+
+    .backposter span {
+        font-size: 2rem;
+    }
+    .bannerdisc,
+    .backposter a{
+        font-size: 1rem !important;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .allback {
+        background-image: url(../images/1600_Featured_Games.webp);
+        background-size: 100% 100%;
+    }
+
+    .poster {
+        background-image: url(../images/1600_Promo.webp);
+        background-size: 100% 100%;
+    }
+
+    .headgamelinks {
+        font-size: 2rem
+    }
+
+    h3.gamesection {
+        font-size: 3rem;
+    }
+
+    .backposter span {
+        font-size: 2rem;
+    }
+    .bannerdisc,
+    .backposter a{
+        font-size: 1rem !important;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .allback {
+        background-image: url(../images/2600_Featured_Games.webp);
+        background-size: 100% 100%;
+    }
+
+    .poster {
+        background-image: url(../images/2600_Promo.webp);
+        background-size: 100% 100%;
+    }
+
+    .headgamelinks {
+        font-size: 2rem;
+    }
+
+    h3.gamesection {
+        font-size: 4rem;
+    }
+
+    .backposter span {
+        font-size: 3rem;
+    }
+    .bannerdisc,
+    .backposter a{
+        font-size: 2rem !important;
+    }
+}
+
+@media screen and (max-width:994px) {
+    .posterlinks {
+        justify-content: center;
+    }
+}
